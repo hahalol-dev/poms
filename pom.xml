@@ -12,13 +12,6 @@
     </properties>
 
     <dependencies>
-        <!-- Hadoop Client -->
-        <dependency>
-            <groupId>org.apache.hadoop</groupId>
-            <artifactId>hadoop-client</artifactId>
-            <version>3.4.0</version>
-        </dependency>
-
         <!-- OkHttp -->
         <dependency>
             <groupId>com.squareup.okhttp3</groupId>
@@ -65,14 +58,14 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.13.5</version>
+            <version>2.15.0-rc1</version>
         </dependency>
 
         <!-- H2 Database -->
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
-            <version>2.2.220</version>
+            <version>2.3.232</version>
         </dependency>
 
         <!-- HSQLDB -->
@@ -100,7 +93,7 @@
         <dependency>
             <groupId>com.cronutils</groupId>
             <artifactId>cron-utils</artifactId>
-            <version>9.1.6</version>
+            <version>9.2.1</version>
         </dependency>
 
         <!-- AWS Lambda Java Events -->
@@ -114,7 +107,7 @@
         <dependency>
             <groupId>com.amazonaws</groupId>
             <artifactId>amazon-kinesis-client</artifactId>
-            <version>1.15.1</version>
+            <version>1.15.2</version>
         </dependency>
 
         <!-- Kafka Clients -->
